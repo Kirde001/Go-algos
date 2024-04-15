@@ -72,7 +72,7 @@ func huntingSearch(list []int, key int) (count int) {
 	}
 	return
 }
-func main() {
+func main1() {
 	var key int
 	fmt.Println("")
 	list := []int{}
