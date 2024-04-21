@@ -49,13 +49,12 @@ func bubbleSortImp(list []int) []int {
 	return list
 }
 
-func main() {
-	fmt.Println("")
+func main2() {
 	list := []int{}
-	for i := 0; i < 100000; i++ {
-		list = append(list, rand.Intn(100))
+	for i := 0; i < 10; i++ {
+		list = append(list, rand.Intn(10000))
 
 	}
 	//fmt.Println(bubbleSort(list))
-	bubbleSort(list)
+	bubbleSortImp(list)
 }
